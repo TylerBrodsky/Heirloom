@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C5297142C929F4C00D0507C /* DessertListViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5297132C929F4C00D0507C /* DessertListViewCard.swift */; };
+		7C5297172C93E4BA00D0507C /* PreviewData_Dessert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5297162C93E4BA00D0507C /* PreviewData_Dessert.swift */; };
+		7C5297192C93F6D900D0507C /* YouTubeThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5297182C93F6D900D0507C /* YouTubeThumbnailView.swift */; };
 		7CA1F0612C91639F0094DF80 /* HeirloomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1F0602C91639F0094DF80 /* HeirloomApp.swift */; };
 		7CA1F0632C91639F0094DF80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1F0622C91639F0094DF80 /* ContentView.swift */; };
 		7CA1F0652C9163A00094DF80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA1F0642C9163A00094DF80 /* Assets.xcassets */; };
@@ -14,6 +17,11 @@
 		7CA1F0722C9163A00094DF80 /* HeirloomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1F0712C9163A00094DF80 /* HeirloomTests.swift */; };
 		7CA1F07C2C9163A00094DF80 /* HeirloomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1F07B2C9163A00094DF80 /* HeirloomUITests.swift */; };
 		7CA1F07E2C9163A00094DF80 /* HeirloomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1F07D2C9163A00094DF80 /* HeirloomUITestsLaunchTests.swift */; };
+		7CA1F0902C9290630094DF80 /* Dessert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1F08F2C9290630094DF80 /* Dessert.swift */; };
+		7CA1F0922C9290A00094DF80 /* DessertDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1F0912C9290A00094DF80 /* DessertDetails.swift */; };
+		7CA1F0942C92914A0094DF80 /* DessertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1F0932C92914A0094DF80 /* DessertViewModel.swift */; };
+		7CA1F0962C9293550094DF80 /* DessertDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1F0952C9293550094DF80 /* DessertDetailsView.swift */; };
+		7CA1F0982C9294D80094DF80 /* AllDessertsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1F0972C9294D80094DF80 /* AllDessertsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C5297132C929F4C00D0507C /* DessertListViewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListViewCard.swift; sourceTree = "<group>"; };
+		7C5297162C93E4BA00D0507C /* PreviewData_Dessert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData_Dessert.swift; sourceTree = "<group>"; };
+		7C5297182C93F6D900D0507C /* YouTubeThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeThumbnailView.swift; sourceTree = "<group>"; };
 		7CA1F05D2C91639F0094DF80 /* Heirloom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heirloom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA1F0602C91639F0094DF80 /* HeirloomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeirloomApp.swift; sourceTree = "<group>"; };
 		7CA1F0622C91639F0094DF80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,11 @@
 		7CA1F0772C9163A00094DF80 /* HeirloomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeirloomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA1F07B2C9163A00094DF80 /* HeirloomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeirloomUITests.swift; sourceTree = "<group>"; };
 		7CA1F07D2C9163A00094DF80 /* HeirloomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeirloomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CA1F08F2C9290630094DF80 /* Dessert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dessert.swift; sourceTree = "<group>"; };
+		7CA1F0912C9290A00094DF80 /* DessertDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetails.swift; sourceTree = "<group>"; };
+		7CA1F0932C92914A0094DF80 /* DessertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewModel.swift; sourceTree = "<group>"; };
+		7CA1F0952C9293550094DF80 /* DessertDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailsView.swift; sourceTree = "<group>"; };
+		7CA1F0972C9294D80094DF80 /* AllDessertsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDessertsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C5297122C929EFC00D0507C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7C5297132C929F4C00D0507C /* DessertListViewCard.swift */,
+				7C5297182C93F6D900D0507C /* YouTubeThumbnailView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7C5297152C93E49400D0507C /* PreviewData */ = {
+			isa = PBXGroup;
+			children = (
+				7C5297162C93E4BA00D0507C /* PreviewData_Dessert.swift */,
+			);
+			path = PreviewData;
+			sourceTree = "<group>";
+		};
 		7CA1F0542C91639F0094DF80 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +129,9 @@
 			children = (
 				7CA1F0602C91639F0094DF80 /* HeirloomApp.swift */,
 				7CA1F0622C91639F0094DF80 /* ContentView.swift */,
+				7CA1F08A2C9165190094DF80 /* Models */,
+				7CA1F08D2C9165300094DF80 /* Views */,
+				7CA1F08E2C91653C0094DF80 /* ViewModels */,
 				7CA1F0642C9163A00094DF80 /* Assets.xcassets */,
 				7CA1F0662C9163A00094DF80 /* Preview Content */,
 			);
@@ -125,6 +161,34 @@
 				7CA1F07D2C9163A00094DF80 /* HeirloomUITestsLaunchTests.swift */,
 			);
 			path = HeirloomUITests;
+			sourceTree = "<group>";
+		};
+		7CA1F08A2C9165190094DF80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CA1F08F2C9290630094DF80 /* Dessert.swift */,
+				7CA1F0912C9290A00094DF80 /* DessertDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7CA1F08D2C9165300094DF80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CA1F0952C9293550094DF80 /* DessertDetailsView.swift */,
+				7CA1F0972C9294D80094DF80 /* AllDessertsListView.swift */,
+				7C5297122C929EFC00D0507C /* Components */,
+				7C5297152C93E49400D0507C /* PreviewData */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7CA1F08E2C91653C0094DF80 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7CA1F0932C92914A0094DF80 /* DessertViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA1F0962C9293550094DF80 /* DessertDetailsView.swift in Sources */,
 				7CA1F0632C91639F0094DF80 /* ContentView.swift in Sources */,
+				7CA1F0982C9294D80094DF80 /* AllDessertsListView.swift in Sources */,
+				7CA1F0942C92914A0094DF80 /* DessertViewModel.swift in Sources */,
+				7CA1F0902C9290630094DF80 /* Dessert.swift in Sources */,
+				7C5297172C93E4BA00D0507C /* PreviewData_Dessert.swift in Sources */,
 				7CA1F0612C91639F0094DF80 /* HeirloomApp.swift in Sources */,
+				7C5297192C93F6D900D0507C /* YouTubeThumbnailView.swift in Sources */,
+				7CA1F0922C9290A00094DF80 /* DessertDetails.swift in Sources */,
+				7C5297142C929F4C00D0507C /* DessertListViewCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
