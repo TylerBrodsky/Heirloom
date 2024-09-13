@@ -22,7 +22,7 @@ struct DessertDetailsView: View {
                 
             } else if let dessert = viewModel.dessertDetails {
                 ScrollView {
-                    VStack(spacing: 8) {
+                    VStack(alignment: .center, spacing: 8) {
                         Text(dessert.name)
                             .font(.largeTitle)
                             .fontWeight(.medium)
@@ -37,19 +37,20 @@ struct DessertDetailsView: View {
                         }
                         .frame(height: 200)
                         
-                        VStack(alignment: .leading, spacing: 4) {
+                        VStack(alignment: .leading, spacing: 8) {
                             Text("Steps:")
                                 .font(.headline)
                             
                             Text(dessert.instructions)
-                                .padding(.top, 8)
                             
                             Text("Ingredients & Measurements:")
                                 .font(.headline)
                                 .padding(.top)
                             
-                            ForEach(Array(zip(dessert.ingredients, dessert.measurements)), id: \.1) { ingredient, measurement in
-                                Text("• \(measurement) \(ingredient)")
+                            VStack(alignment: .leading, spacing: 4) {
+                                ForEach(Array(zip(dessert.ingredients, dessert.measurements)), id: \.1) { ingredient, measurement in
+                                    Text("• \(measurement) \(ingredient)")
+                                }
                             }
                         }
                         
