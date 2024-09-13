@@ -95,7 +95,7 @@ struct DessertDetails: Decodable {
             try container.decodeIfPresent(String.self, forKey: .strMeasure20) ?? ""
         ]
 
-        ingredients = ingredientsArray.filter {!$0.isEmpty}
-        measurements = measurementsArray.filter {!$0.isEmpty}
+        ingredients = ingredientsArray.filter { !$0.trimmingCharacters(in: .whitespaces).isEmpty }
+        measurements = measurementsArray.filter { !$0.trimmingCharacters(in: .whitespaces).isEmpty }
     }
 }

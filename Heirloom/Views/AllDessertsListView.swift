@@ -24,6 +24,8 @@ struct AllDessertsListView: View {
                                DessertListViewCard(dessert: dessert)
                            }
                            .refreshable {
+                               HapticFeedbackManager.shared.triggerImpactFeedback(style: .medium)
+                               
                                await viewModel.fetchDesserts()
                            }
                        }
@@ -37,7 +39,10 @@ struct AllDessertsListView: View {
                            Spacer()
                            
                            Button {
+                               HapticFeedbackManager.shared.triggerImpactFeedback(style: .soft)
+                               
                                viewModel.sortAlphabeticalAscending.toggle()
+                               
                                Task {
                                    await viewModel.fetchDesserts()
                                }

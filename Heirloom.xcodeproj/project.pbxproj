@@ -10,6 +10,7 @@
 		7C5297142C929F4C00D0507C /* DessertListViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5297132C929F4C00D0507C /* DessertListViewCard.swift */; };
 		7C5297172C93E4BA00D0507C /* PreviewData_Dessert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5297162C93E4BA00D0507C /* PreviewData_Dessert.swift */; };
 		7C5297192C93F6D900D0507C /* YouTubeThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5297182C93F6D900D0507C /* YouTubeThumbnailView.swift */; };
+		7C52971C2C94B78D00D0507C /* HapticFeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C52971B2C94B78D00D0507C /* HapticFeedbackManager.swift */; };
 		7CA1F0612C91639F0094DF80 /* HeirloomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1F0602C91639F0094DF80 /* HeirloomApp.swift */; };
 		7CA1F0632C91639F0094DF80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1F0622C91639F0094DF80 /* ContentView.swift */; };
 		7CA1F0652C9163A00094DF80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA1F0642C9163A00094DF80 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		7C5297132C929F4C00D0507C /* DessertListViewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListViewCard.swift; sourceTree = "<group>"; };
 		7C5297162C93E4BA00D0507C /* PreviewData_Dessert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData_Dessert.swift; sourceTree = "<group>"; };
 		7C5297182C93F6D900D0507C /* YouTubeThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeThumbnailView.swift; sourceTree = "<group>"; };
+		7C52971B2C94B78D00D0507C /* HapticFeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackManager.swift; sourceTree = "<group>"; };
 		7CA1F05D2C91639F0094DF80 /* Heirloom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heirloom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA1F0602C91639F0094DF80 /* HeirloomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeirloomApp.swift; sourceTree = "<group>"; };
 		7CA1F0622C91639F0094DF80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,14 @@
 			path = PreviewData;
 			sourceTree = "<group>";
 		};
+		7C52971A2C94B77100D0507C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7C52971B2C94B78D00D0507C /* HapticFeedbackManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		7CA1F0542C91639F0094DF80 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +142,7 @@
 				7CA1F08A2C9165190094DF80 /* Models */,
 				7CA1F08D2C9165300094DF80 /* Views */,
 				7CA1F08E2C91653C0094DF80 /* ViewModels */,
+				7C52971A2C94B77100D0507C /* Utilities */,
 				7CA1F0642C9163A00094DF80 /* Assets.xcassets */,
 				7CA1F0662C9163A00094DF80 /* Preview Content */,
 			);
@@ -328,6 +339,7 @@
 				7CA1F0902C9290630094DF80 /* Dessert.swift in Sources */,
 				7C5297172C93E4BA00D0507C /* PreviewData_Dessert.swift in Sources */,
 				7CA1F0612C91639F0094DF80 /* HeirloomApp.swift in Sources */,
+				7C52971C2C94B78D00D0507C /* HapticFeedbackManager.swift in Sources */,
 				7C5297192C93F6D900D0507C /* YouTubeThumbnailView.swift in Sources */,
 				7CA1F0922C9290A00094DF80 /* DessertDetails.swift in Sources */,
 				7C5297142C929F4C00D0507C /* DessertListViewCard.swift in Sources */,
